@@ -66,7 +66,7 @@ export const projects = [
     title: "AI LinkedIn Strategist GPT",
     des: "The LinkedIn Strategist GPT is a LLM used for start-up CEO's to develop useful LinkedIn posts to promote their company",
     img: "/LinkedInGpt.webp",
-    iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
+    iconLists: ["/python.png", "/openai.png"],
     link: "just-radon-3e4.notion.site/LinkedIn-Content-Strategist-GPT-d198219afad843879dac0ec3a0858c5f",
   },
   {
@@ -74,7 +74,7 @@ export const projects = [
     title: "RASLO Network Speeds",
     des: "This visuals website is a tool for RASLO to display their newtork speeds",
     img: "/visuals.png",
-    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
+    iconLists: ["/next.svg","/re.svg", "/ts.svg", "/supabase.png", "/chartjs.svg"],
     link: "raslo.vercel.app/",
   },
   {
@@ -82,7 +82,7 @@ export const projects = [
     title: "Nike AR Filter",
     des: "A filter that displays the old logos of Nike using hand gestures. Made for SnapChat!",
     img: "/arfilter.svg",
-    iconLists: ["/re.svg", "/css.svg", "/js.svg", "/chartjs.svg", "/fm.svg", "/mui.svg"],
+    iconLists: ["/re.svg", "/js.svg", "/snapar.webp"],
     link: "",
   },
 
@@ -91,7 +91,7 @@ export const projects = [
     title: "HealthDipity",
     des: "An application used to track your daily diet, goals, etc etc... Made with my CSC 307 group :)",
     img: "/healthdipity.png",
-    iconLists: ["/re.svg",  "/css.svg", "/js.svg"],
+    iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/supabase.png", "/shadcn.png", "/ts.svg"],
     link: "healthdipity.vercel.app/login",
   },
 ];

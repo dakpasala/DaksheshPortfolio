@@ -11,18 +11,16 @@ const slugs = [
   "nodedotjs",
   "express",
   "nextdotjs",
-  "prisma",
-  "postgresql",
   "vercel",
-  "jest",
   "docker",
   "git",
   "github",
   "visualstudiocode",
   "figma",
   "mongodb",
-  "python",
-  
+  "python", 
+  "C",
+  "C++"
 ];
 
 function Skills() {
