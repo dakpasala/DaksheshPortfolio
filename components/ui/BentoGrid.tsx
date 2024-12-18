@@ -13,6 +13,7 @@ const BackgroundGradientAnimation = dynamic(
   { ssr: false } // Disable server-side rendering
 );
 
+
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
