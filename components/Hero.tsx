@@ -7,22 +7,32 @@ import { TypewriterEffect } from "./ui/TypewriterEffect";
 const Hero = () => {
   const words = [
     {
-      text: "I",
+      text: "Passionate",
     },
     {
-      text: "Aspire",
+      text: "Student",
     },
+    {
+      text: "Aspiring",
+    },   
     {
       text: "To",
-    },   
+    },  
     {
       text: "Become",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Better",
+      text: "a",
+    },
+    {
+      text: "Software/Firmware",
       className: "text-purple dark:text-purple",
     },
+    {
+      text: "Engineer",
+      className: "text-purple dark:text-purple",
+    }
   ];
 
   return (
