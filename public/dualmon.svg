@@ -1,0 +1,41 @@
+<svg width="500" height="300" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="laptopBaseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B1B1B"/>
+      <stop offset="100%" stop-color="#2D2D2D"/>
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#2B2B48"/>
+    </linearGradient>
+    <radialGradient id="purpleBlueGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7D5EF5"/>
+      <stop offset="100%" stop-color="#4A90E2"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Laptop Base -->
+  <rect x="100" y="200" width="300" height="20" rx="2" fill="url(#laptopBaseGradient)"/>
+
+  <!-- Laptop Keyboard -->
+  <rect x="105" y="210" width="290" height="20" rx="2" fill="#1B1B1B"/>
+
+  <!-- Laptop Screen -->
+  <rect x="110" y="50" width="280" height="150" rx="10" fill="url(#screenGlow)"/>
+
+  <!-- Screen Inner Glow -->
+  <rect x="120" y="60" width="260" height="130" rx="8" fill="url(#purpleBlueGlow)" opacity="0.2"/>
+
+  <!-- Code Lines -->
+  <line x1="140" y1="80" x2="360" y2="80" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <line x1="140" y1="100" x2="320" y2="100" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <line x1="140" y1="120" x2="330" y2="120" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <line x1="140" y1="140" x2="300" y2="140" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <line x1="140" y1="160" x2="310" y2="160" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+
+  <!-- Progress Indicator -->
+  <rect x="150" y="180" width="200" height="10" rx="5" fill="#333333"/>
+  <rect x="150" y="180" width="120" height="10" rx="5" fill="url(#purpleBlueGlow)"/>
+  <text x="265" y="188" font-size="8" fill="#FFFFFF" font-family="Arial, sans-serif" text-anchor="middle">Learning Progress</text>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF00C1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4AC24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A76DFC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C1CB2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Question Mark Body -->
+  <path d="M100 10C125 10 150 35 150 60C150 80 135 95 120 100C105 105 90 115 90 130V140H110V130C110 120 120 115 130 110C145 100 160 85 160 60C160 30 130 0 100 0C70 0 40 30 40 60H60C60 35 75 10 100 10Z" fill="url(#grad1)"/>
+
+  <!-- Question Mark Dot -->
+  <circle cx="100" cy="170" r="10" fill="url(#grad2)"/>
+</svg>

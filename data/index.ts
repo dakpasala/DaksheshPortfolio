@@ -14,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/PicPort.webp",
+    img: "/mons.jpg",
     spareImg: "",
   },
   {
@@ -165,10 +165,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Intern at Applied Materials",
-    desc: "Developed an interactive tool using RShiny and Python to display hiearchal visuals for parts",
+    title: "AI/ML Business-Associative Intern",
+    desc: "Developed an LLM (GPT) to provide start-ups with well written LinkedIn posts",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp0.svg",
   },
   {
     id: 2,
@@ -179,18 +179,32 @@ export const workExperience = [
   },
   {
     id: 3,
+    title: "Software Engineering Intern at Applied Materials",
+    desc: "Developed an interactive tool using RShiny and Python to display hiearchal visuals for parts",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 4,
     title: "National System Administrator At Hack4Impact",
     desc: "Managed Hack4Impact's clouds and notions. Currently working on revamping the website using Next.js and Vercel",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Lead Software Engineering Consultant at RASLO",
     desc: "Led a team of students in creating a project for a SLO-Based Company (Raslo).",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  {
+    id: 6,
+    title: "Software Engineering Intern at....",
+    desc: "TBA Soon",
+    className: "md:col-span-2",
+    thumbnail: "/exp5.svg",
+  }
 ];
 
 
