@@ -9,7 +9,7 @@ const Research = () => {
   return (
     <div className="py-10" id="projects">
       <h1 className="heading">
-        Research I've{" "}
+        Research I have{" "}
         <span className="text-purple"> Worked</span> On 
         <span className="text-purple"> -EE Based-</span>
       </h1>
