@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Resume", link: "https://drive.google.com/file/d/1t0t3pNAnb0-jRQXMYU1aDuIkMyPkJ2QV/view?usp=sharing" },
   { name: "Projects", link: "#projects" },
-  //{ name: "Testimonials", link: "#testimonials" },
+  { name: "Research", link: "#research"},
   { name: "Contact", link: "#contact" },
 ];
 
@@ -61,7 +61,7 @@ export const gridItems = [
 ];
 
 export const projects = [
-      {
+    {
     id: 1,
     title: "AI LinkedIn Strategist GPT",
     des: "The LinkedIn Strategist GPT is a LLM used for start-up CEO's to develop useful LinkedIn posts to promote their company",
@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 2,
     title: "RASLO Network Speeds",
-    des: "This visuals website is a tool for RASLO to display their newtork speeds",
+    des: "This visuals website is a tool for RASLO to display their network speeds",
     img: "/visuals.png",
     iconLists: ["/next.svg","/re.svg", "/ts.svg", "/supabase.png", "/chartjs.svg"],
     link: "raslo.vercel.app/",
@@ -93,6 +93,24 @@ export const projects = [
     img: "/healthdipity.png",
     iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/supabase.png", "/shadcn.png", "/ts.svg"],
     link: "healthdipity.vercel.app/login",
+  },
+];
+
+
+export const research = [
+  {
+    id: 1,
+    title: "EE 145 Research Paper",
+    des: "Designed and tested a cascade-connected Transimpedance and Voltage Amplifier to enhance IR receiver sensitivity and signal processing performance.",
+    img: "/cascade.svg",
+    link: "docs.google.com/document/d/1vJGelfLMKJjrerDcYBcyE0rW0Lm0BAouUSUoZ8yE8Ik/edit?usp=sharing",
+  },
+  {
+    id: 2,
+    title: "EE 245 Research Paper",
+    des: "Analyzed the natural frequency and quality factor of parallel RLC circuits to study damping and selectivity effects in low-pass and band-pass filters.",
+    img: "/rlc.svg",
+    link: "docs.google.com/document/d/1sMDxEe4KfzBMbj3egGNGap8jXL2Ay2P3pkjKc7QYQo4/edit?usp=sharing",
   },
 ];
 
