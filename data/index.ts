@@ -81,9 +81,9 @@ export const projects = [
     id: 3,
     title: "Nike AR Filter",
     des: "A filter that displays the old logos of Nike using hand gestures. Made for SnapChat!",
-    img: "/arfilter.svg",
+    img: "/snap.svg",
     iconLists: ["/re.svg", "/js.svg", "/snapar.webp"],
-    link: "",
+    link: "www.snapchat.com/lens/c439bfa43f384acb918ef95e48c9d89a?type=SNAPCODE&metadata=01",
   },
 
   {
