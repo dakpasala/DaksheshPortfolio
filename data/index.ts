@@ -94,6 +94,25 @@ export const projects = [
     iconLists: ["/re.svg",  "/css.svg", "/js.svg", "/supabase.png", "/shadcn.png", "/ts.svg"],
     link: "healthdipity.vercel.app/login",
   },
+
+  {
+    id: 5,
+    title: "Sudoku Solver",
+    des: "An interactive Sudoku Solver made with C and STM32. I2C, LCD, Keypads, GPIO, and Timers were used.",
+    img: "/sudoku.jpg",
+    iconLists: ["/c.png", "/stm32.png"],
+    link: "https://github.com/dakpasala/CPE-316-Final-Project",
+  },
+
+  {
+    id: 6,
+    title: "ML Autonomous Driving Detection",
+    des:  "An autonomous driving system using YOLO-based machine learning models to detect objects in real-time.",
+    img: "/mxcarkit.jpg",
+    iconLists: ["/python.png", "/yolo.png", "/colab.png"],
+    link: "",
+  },
+
 ];
 
 
@@ -218,8 +237,8 @@ export const workExperience = [
   },
   {
     id: 6,
-    title: "Software Engineering Intern at....",
-    desc: "TBA Soon",
+    title: "Software Engineering Intern at Enfusion",
+    desc: "Led a project to create an internal tool using Java and Swing to help traders with their daily tasks",
     className: "md:col-span-2",
     thumbnail: "/exp5.svg",
   }

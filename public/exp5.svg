@@ -1,18 +1,53 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="150" viewBox="0 0 200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Monitor body -->
+  <rect x="20" y="20" width="160" height="100" rx="6" fill="url(#screenGrad)" stroke="#461885" stroke-width="2"/>
+  
+  <!-- Monitor stand -->
+  <rect x="95" y="120" width="10" height="15" rx="2" fill="url(#standGrad)"/>
+  <rect x="80" y="135" width="40" height="6" rx="3" fill="url(#standGrad)"/>
+  
+  <!-- Screen grid background -->
+  <g opacity="0.2" stroke="white">
+    <line x1="30" y1="40" x2="170" y2="40"/>
+    <line x1="30" y1="60" x2="170" y2="60"/>
+    <line x1="30" y1="80" x2="170" y2="80"/>
+    <line x1="30" y1="100" x2="170" y2="100"/>
+    <line x1="50" y1="30" x2="50" y2="110"/>
+    <line x1="90" y1="30" x2="90" y2="110"/>
+    <line x1="130" y1="30" x2="130" y2="110"/>
+    <line x1="170" y1="30" x2="170" y2="110"/>
+  </g>
+  
+  <!-- Candlesticks -->
+  <rect x="40" y="70" width="6" height="25" fill="#4CAF50"/>
+  <line x1="43" y1="60" x2="43" y2="95" stroke="#4CAF50" stroke-width="2"/>
+  
+  <rect x="70" y="55" width="6" height="35" fill="#F44336"/>
+  <line x1="73" y1="45" x2="73" y2="95" stroke="#F44336" stroke-width="2"/>
+  
+  <rect x="100" y="65" width="6" height="20" fill="#4CAF50"/>
+  <line x1="103" y1="55" x2="103" y2="90" stroke="#4CAF50" stroke-width="2"/>
+  
+  <rect x="130" y="50" width="6" height="40" fill="#F44336"/>
+  <line x1="133" y1="40" x2="133" y2="95" stroke="#F44336" stroke-width="2"/>
+  
+  <!-- Glowing line chart -->
+  <polyline points="30,90 60,60 90,80 120,50 150,70 170,40"
+            fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Gradients -->
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF00C1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F4AC24;stop-opacity:1" />
+    <linearGradient id="screenGrad" x1="20" y1="20" x2="180" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E003C"/>
+      <stop offset="1" stop-color="#4B0082"/>
     </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#A76DFC;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#5C1CB2;stop-opacity:1" />
+    <linearGradient id="standGrad" x1="80" y1="120" x2="120" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFAD4B"/>
+      <stop offset="1" stop-color="#77007C"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="30" y1="40" x2="170" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFEA"/>
+      <stop offset="1" stop-color="#FF00C1"/>
     </linearGradient>
   </defs>
-  
-  <!-- Question Mark Body -->
-  <path d="M100 10C125 10 150 35 150 60C150 80 135 95 120 100C105 105 90 115 90 130V140H110V130C110 120 120 115 130 110C145 100 160 85 160 60C160 30 130 0 100 0C70 0 40 30 40 60H60C60 35 75 10 100 10Z" fill="url(#grad1)"/>
-
-  <!-- Question Mark Dot -->
-  <circle cx="100" cy="170" r="10" fill="url(#grad2)"/>
 </svg>
